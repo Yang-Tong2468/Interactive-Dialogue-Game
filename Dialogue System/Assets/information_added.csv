@@ -1,62 +1,64 @@
-Database,,,,,,,,,,,,,,,
-Name,Version,Author,Description,Emphasis1,Emphasis2,Emphasis3,Emphasis4,,,,,,,,
-Dialogue Database,,,,#ffffffff ---,#ff0000ff ---,#00ff00ff ---,#0000ffff ---,,,,,,,,
-Global User Script,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-Actors,,,,,,,,,,,,,,,
-ID,Portrait,AltPortraits,SpritePortrait,AltSpritePortraits,Name,Pictures,Description,IsPlayer,,,,,,,
-Number,Special,Special,Special,Special,Text,Files,Text,Boolean,,,,,,,
-1,,[],,[],Player,[],,TRUE,,,,,,,
-2,,[],,[],NPC,[],,FALSE,,,,,,,
-Items,,,,,,,,,,,,,,,
-ID,Name,Pictures,Description,Is Item,,,,,,,,,,,
-Number,Text,Files,Text,Boolean,,,,,,,,,,,
-1,Happiness,[],ÉËÐÄÖµ-1,TRUE,,,,,,,,,,,
-2,Coin,[],²Æ¸»Öµ+1,TRUE,,,,,,,,,,,
-Locations,,,,,,,,,,,,,,,
-ID,,,,,,,,,,,,,,,
-Number,,,,,,,,,,,,,,,
-Variables,,,,,,,,,,,,,,,
-ID,Name,Initial Value,Description,InitialValueType,,,,,,,,,,,
-Number,Text,Text,Text,Text,,,,,,,,,,,
-1,Alert,,,Text,,,,,,,,,,,
-2,Charm,0,÷ÈÁ¦Öµ,Number,,,,,,,,,,,
-3,Care,0,ÌåÌùÖµ,Number,,,,,,,,,,,
-4,Wisdom,0,ÖÇ»ÛÖµ,Number,,,,,,,,,,,
-5,Sadness,0,ÉËÐÄÖµ,Number,,,,,,,,,,,
-6,Money,0,²Æ¸»Öµ,Number,,,,,,,,,,,
-Conversations,,,,,,,,,,,,,,,
-ID,Title,Description,Actor,Conversant,Overrides,,,,,,,,,,
-Number,Text,Text,Actor,Actor,JSON,,,,,,,,,,
-1,New Conversation 1,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}",,,,,,,,,,
-2,New Conversation 2,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}",,,,,,,,,,
-3,New Conversation 3,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}",,,,,,,,,,
-DialogueEntries,,,,,,,,,,,,,,,
+ï»¿Database
+Name,Version,Author,Description,Emphasis1,Emphasis2,Emphasis3,Emphasis4
+Dialogue Database (Auto-Backup),,,,#ffffffff ---,#ff0000ff ---,#00ff00ff ---,#0000ffff ---
+Global User Script
+
+Actors
+ID,Portrait,AltPortraits,SpritePortrait,AltSpritePortraits,Name,Pictures,Description,IsPlayer
+Number,Special,Special,Special,Special,Text,Files,Text,Boolean
+1,,[],,[],Player,[],,TRUE
+2,,[],,[],NPC,[],,FALSE
+Items
+ID,Name,Pictures,Description,Is Item
+Number,Text,Files,Text,Boolean
+1,Happiness,[],ä¼¤å¿ƒå€¼-1,True
+2,Coin,[],è´¢å¯Œå€¼+1,True
+Locations
+ID
+Number
+Variables
+ID,Name,Initial Value,Description,InitialValueType
+Number,Text,Text,Text,Text
+1,Alert,,,Text
+2,Charm,0,é­…åŠ›å€¼,Number
+3,Care,0,ä½“è´´å€¼,Number
+4,Wisdom,0,æ™ºæ…§å€¼,Number
+5,Sadness,0,ä¼¤å¿ƒå€¼,Number
+6,Money,0,è´¢å¯Œå€¼,Number
+Conversations
+ID,Title,Description,Actor,Conversant,Overrides
+Number,Text,Text,Actor,Actor,JSON
+1,New Conversation 1,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+2,New Conversation 2,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+3,New Conversation 3,,1,2,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+DialogueEntries
 entrytag,ConvID,ID,Actor,Conversant,Title,MenuText,DialogueText,IsGroup,FalseConditionAction,ConditionPriority,Conditions,Script,Sequence,Description,canvasRect
 Text,Number,Number,Number,Number,Text,Text,Text,Boolean,Special,Special,Text,Text,Text,Text,Text
-Player_1_0,1,0,1,2,START,,,FALSE,Block,Normal,,,None(),,227.5862;29.31035
-NPC_1_1,1,1,2,1,,,hello,FALSE,Block,Normal,,,,,229.719;80
-Player_1_2,1,2,1,2,,,how are you,FALSE,Block,Normal,,Variables["Money"] += 1; ,,,1;129.3377
-NPC_1_3,1,3,2,1,,,"i am fine,and you",FALSE,Block,Normal,,,,,1.689651;200
-Player_1_4,1,4,1,2,,,i am fine too,FALSE,Block,Normal,,,,,1;261.7242
-Player_1_5,1,5,1,2,,,who are you,FALSE,Block,Normal,,Variables["Charm"] += 1; Variables["Care"] += 1; ,,,459.0423;127.8549
-Player_1_6,1,6,1,2,,,what's up,FALSE,Block,Normal,,Variables["Money"] += 1; ,,,230.7478;133.1915
-NPC_1_7,1,7,2,1,,,i am hungry,FALSE,Block,Normal,,,,,230.0345;198.6207
-Player_1_8,1,8,1,2,,,"ok,let's go for lunch",FALSE,Block,Normal,,,,,230.7241;258.2759
-NPC_1_9,1,9,2,1,,,i am Judy,FALSE,Block,Normal,,,,,464.0731;196.4756
-Player_1_10,1,10,1,2,,,"oh, little rabbit",FALSE,Block,Normal,,,,,462.0041;250.6135
-Player_1_11,1,11,1,2,,,test node,FALSE,Block,Normal,,,,,462;325
-OutgoingLinks,,,,,,,,,,,,,,,
-OriginConvID,OriginID,DestConvID,DestID,ConditionPriority,,,,,,,,,,,
-Number,Number,Number,Number,Special,,,,,,,,,,,
-1,0,1,1,Normal,,,,,,,,,,,
-1,1,1,2,Normal,,,,,,,,,,,
-1,1,1,5,Normal,,,,,,,,,,,
-1,1,1,6,Normal,,,,,,,,,,,
-1,2,1,3,Normal,,,,,,,,,,,
-1,3,1,4,Normal,,,,,,,,,,,
-1,5,1,9,Normal,,,,,,,,,,,
-1,6,1,7,Normal,,,,,,,,,,,
-1,7,1,8,Normal,,,,,,,,,,,
-1,9,1,10,Normal,,,,,,,,,,,
-1,10,1,11,Normal,,,,,,,,,,,
+Player_1_0,1,0,1,2,START,,,False,Block,Normal,,,None(),,227.5862;29.31035
+NPC_1_1,1,1,2,1,,,hello,False,Block,Normal,,,,,229.719;80
+Player_1_2,1,2,1,2,,,how are you,False,Block,Normal,,"Variables[""Money""] += 1; ",,,1;129.3377
+NPC_1_3,1,3,2,1,,,"i am fine,and you",False,Block,Normal,,,,,1.689651;200
+Player_1_4,1,4,1,2,,,i am fine too,False,Block,Normal,,,,,3.739723;267.2036
+Player_1_5,1,5,1,2,,,who are you,False,Block,Normal,,"Variables[""Charm""] += 1; Variables[""Care""] += 1; ",,,459.0423;127.8549
+Player_1_6,1,6,1,2,,,what's up,False,Block,Normal,,"Variables[""Money""] += 1; ",,,230.7478;133.1915
+NPC_1_7,1,7,2,1,,,i am hungry,False,Block,Normal,,,,,230.0345;198.6207
+Player_1_8,1,8,1,2,,,"ok,let's go for lunch",False,Block,Normal,,,,,230.7241;258.2759
+NPC_1_9,1,9,2,1,,,i am Judy,False,Block,Normal,,,,,464.0731;196.4756
+Player_1_10,1,10,1,2,,,"oh, little rabbit",False,Block,Normal,,,,,462.0041;250.6135
+Player_1_11,1,11,1,2,,,test node,False,Block,Normal,,,,,462;325
+Player_2_0,2,0,1,2,START,,,False,,Normal,,,,,80;50
+Player_3_0,3,0,1,2,START,,,False,,Normal,,,,,80;50
+OutgoingLinks
+OriginConvID,OriginID,DestConvID,DestID,ConditionPriority
+Number,Number,Number,Number,Special
+1,0,1,1,Normal
+1,1,1,2,Normal
+1,1,1,5,Normal
+1,1,1,6,Normal
+1,2,1,3,Low
+1,3,1,4,Normal
+1,5,1,9,Low
+1,6,1,7,High
+1,7,1,8,Normal
+1,9,1,10,Normal
+1,10,1,11,Normal
